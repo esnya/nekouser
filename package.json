@@ -1,0 +1,49 @@
+{
+  "name": "nekouser",
+  "version": "1.0.0",
+  "description": "SSO for NekoRPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukatama/nekouser.git"
+  },
+  "author": "ukatama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukatama/nekouser/issues"
+  },
+  "homepage": "https://github.com/ukatama/nekouser#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "chokidar-cli": "^1.2.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.3.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0",
+    "jest-cli": "^14.1.0",
+    "nodemon": "^1.10.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.2.0",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "lodash": "^4.15.0",
+    "log4js": "^0.6.38",
+    "material-ui": "^0.15.4",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2"
+  }
+}
