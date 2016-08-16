@@ -4,6 +4,8 @@
   "description": "SSO for NekoRPG",
   "main": "index.js",
   "scripts": {
+    "build": "run-p -ls build:*",
+    "build:babel": "babel -d lib src",
     "test": "jest"
   },
   "repository": {
@@ -20,6 +22,10 @@
     "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
     "chokidar-cli": "^1.2.0",
     "css-loader": "^0.23.1",
     "eslint": "^3.3.0",

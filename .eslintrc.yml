@@ -1,0 +1,7 @@
+extends: airbnb
+rules:
+    indent: [ error, 4 ]
+    new-cap:
+        - error
+        - capIsNewExceptions:
+            - Record

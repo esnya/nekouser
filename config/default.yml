@@ -1,0 +1,6 @@
+database: default
+databases:
+    default:
+        client: sqlite3
+        connection:
+            filename: tmp/default.db
